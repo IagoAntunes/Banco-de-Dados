@@ -32,5 +32,6 @@
 
 
 <div id = autor>
- <h3><b><i>Iago Antunes Ferreira</b></i></h3>
- </div>
+
+[Portfolio](https://iagoantunes.github.io/)
+<h4><i>Iago Antunes Ferreira</i></h4>
