@@ -3,16 +3,24 @@
 <h3 align = center><i><b> Repositorio dedicado a mostrar meus estudos sobre o MySql</b></i> </h3>
 
 <p align="center">
- <a href="#objetivo">Introdução</a> •
- <a href="#roadmap">Cursos</a> • 
- <a href="#tecnologias">Em breve</a> • 
- <a href="#contribuicao">Em breve</a> • 
- <a href="#licenc-a">Em breve </a> • 
+ <a href="#objetivo">Introdução</a> |
+  <a href="#tecnologias">Tecnologias</a> |
+ <a href="#roadmap">Cursos</a> |
+ <a href="#contribuicao">Em breve</a> |
+ <a href="#licenc-a">Em breve </a> |
  <a href="#autor">Autor</a>
 </p>
 
 <h2 id = objetivo> Introdução </h2>
-<h3>Este repositorio é tem o intuito de mostrar todo conteudo estudado de MySql</h3>
+<h5>Este repositorio é tem o intuito de mostrar todo conteudo estudado de MySql</h5>
+
+<div id = tecnologias>
+ 
+| Linguagen  | Descrição                    |
+| ------------------- | ------------------- |
+|  MySQL     |  Um sistema de gerenciamento de banco de dados |
+ 
+</div>
 
 <h2> Cursos </h2>
 
@@ -21,3 +29,8 @@
  • [Curso em Video[40Horas]](https://github.com/IagoAntunes/HTML-5/tree/master/HTM5-Curso%20em%20Video)
  
 </p>
+
+
+<div id = autor>
+ <h3><b><i>Iago Antunes Ferreira</b></i></h3>
+ </div>
