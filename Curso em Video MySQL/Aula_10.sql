@@ -54,3 +54,32 @@ where ano = '2016';
 
 select avg(totaulas) from cursos
 where ano = '2016';
+
+/*   EXERCICIOS MYSQL    */
+
+select * from gafanhotos;
+select * from gafanhotos
+where sexo = 'F';
+
+select * from gafanhotos
+where nascimento between '2000-01-01' and '2015-12-31';
+
+select * from gafanhotos
+where sexo = 'M' and profissao = 'Programador';
+
+select * from gafanhotos
+where sexo = 'F' and nacionalidade = 'Brasil' and nome like 'J%';
+
+select * from gafanhotos
+where sexo = 'M' and nacionalidade != 'Brasil' and peso < 100 and nome like '%silva%';
+
+select max(altura) from gafanhotos
+where sexo = 'M';
+
+select avg(peso) from gafanhotos;
+
+select min(peso) from gafanhotos
+where sexo = 'F' and nacionalidade != 'Brasil' and nascimento between '1990-01-01' and '2000-12-31';
+
+select count(altura) from gafanhotos
+where altura > '1.90' and sexo = 'F';
