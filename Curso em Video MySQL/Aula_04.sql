@@ -2,17 +2,17 @@ Drop database cadastro
 
 
 CREATE DATABASE 'nome';
-Default character set utf8
-Default collate utf8_general_ci
+default character set utf8
+default collate utf8_general_ci
 
 create table 'pessoas'{
-	Id int NOT NULL AUTO_INCREMENT
-	Nome varchar(30) not NULL,
-	Idade  date,
-	Sexo enum('m','f'),
-	Nacionalidade varchar(20) deffault 'Brasil',
-	Altura decimal(3,2),
-	Peso decimal(5,2);
-	Primary key (id)
+	id int NOT NULL AUTO_INCREMENT
+	nome varchar(30) not NULL,
+	idade  date,
+	sexo enum('m','f'),
+	nacionalidade varchar(20) deffault 'Brasil',
+	altura decimal(3,2),
+	peso decimal(5,2);
+	primary key (id)
 
 }default charset = utf8;
