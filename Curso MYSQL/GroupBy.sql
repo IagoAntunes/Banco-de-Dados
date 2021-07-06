@@ -1,0 +1,4 @@
+/* GROUP BY */
+
+
+select * from 
