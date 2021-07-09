@@ -10,9 +10,6 @@ A pontuação do candidato é o resultado da média ponderada descrita abaixo:
 
 
 
-
-
-
 SELECT C.name,cast(((S.math*2)+(S.specific*3)+(S.project_plan*5))/10) AS avg
 FROM candidate C
 INNER JOIN score S ON C.id = S.candidate_id
