@@ -11,6 +11,9 @@ from sales.SalesOrderHeader
 group by DATEPART(month,OrderDate)
 order by mes;
 
+select person.FirstName,DATEPART(year,ModifiedDate)
+from person.Person;
+
 
 
 
