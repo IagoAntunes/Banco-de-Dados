@@ -17,3 +17,22 @@ from Production.Product;
 
 /* PRATICA */
 
+
+
+
+select CONCAT(CountryRegionCode,'--',StateProvinceCode)
+from person.StateProvince;
+
+SELECT LEN(StateProvinceCode)
+from person.StateProvince;
+
+SELECT LOWER(CountryRegionCode)
+from person.StateProvince;
+
+SELECT UPPER(CountryRegionCode)
+from person.StateProvince;
+
+SELECT SUBSTRING(CountryRegionCode,1,1)
+FROM PERSON.StateProvince;
+
+
