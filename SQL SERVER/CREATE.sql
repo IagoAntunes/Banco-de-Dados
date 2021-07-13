@@ -36,5 +36,28 @@ CanalId INT FOREIGN KEY REFERENCES canal(Canald)
 SELECT * FROM video;
 
 
+/* DESAFIO */
 
+use APAGAE;
+
+CREATE DATABASE APAGAE;
+
+
+CREATE TABLE quarto (
+numQuarto int PRIMARY KEY,
+qtdCanetas int NOT NULL,
+nameCanetas varchar(150) UNIQUE,
+
+);
+
+CREATE TABLE sala(
+numSala int PRIMARY KEY,
+qtdMoveis int NOT NULL,
+namePlace varchar(150),
+Chair INT FOREIGN KEY REFERENCES quarto(numQuarto)
+);
+
+SELECT * from sala;
+
+SELECT * FROM quarto;
 
