@@ -19,6 +19,7 @@
 | Linguagen  | Descrição                    |
 | ------------------- | ------------------- |
 |  MySQL     |  Um sistema de gerenciamento de banco de dados |
+ | SQL Server | É um sistema gerenciador de Banco de dados relacional|
  
 </div>
 
